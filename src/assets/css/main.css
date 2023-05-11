@@ -1,0 +1,72 @@
+.error-page {
+  background: url("../images/404-Error-Page.gif") no-repeat center;
+  background-size: cover;
+}
+
+.container-fluid {
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}
+
+nav menu a {
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+nav a.active {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+
+header {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+}
+
+form label {
+  width: 80%;
+}
+
+form label span {
+  font-size: 20px;
+  color: #fff;
+}
+
+form label input {
+  width: 100%;
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 12px;
+  outline: none;
+}
+
+form button {
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+}
+
+header .post {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 10px 3px gray;
+    border-radius: 12px;
+    padding: 20px;
+}
